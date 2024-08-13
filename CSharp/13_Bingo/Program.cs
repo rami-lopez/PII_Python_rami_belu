@@ -92,7 +92,7 @@ print(
             97,
         ],
     )
-)  # True
+)
 print(
     tiene_bingo(
         [[2, 12, 33, 45, 67], [5, 23, 45, 77, 86], [3, 34, 46, 56, 88, 97]],
@@ -132,7 +132,7 @@ public static class Function
 {
     public static void Greet()
     {
-        // Reemplaza esto 👇por tu código 
+        // 
     }
 }
 
