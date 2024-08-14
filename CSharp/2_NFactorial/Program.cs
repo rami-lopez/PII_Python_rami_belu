@@ -7,14 +7,24 @@ public static class Functions
 {
     public static int FactorialFor(int number)
     {
-        // Reemplaza esto 👇por tu código
-        return 25;
+        int i = 1;
+        for (int num2=1; num2 <= number; num2++)
+        {
+            i *= num2;
+        }
+        return i;
     }
 
     public static int FactorialWhile(int number)
     {
-        // Reemplaza esto 👇por tu código
-        return 25;
+        int i = 1;
+        int num2 = 1;
+        while (num2 <= number)
+        {
+            i *= num2;
+            num2 += 1;
+        }
+        return i;
     }
 }
 
